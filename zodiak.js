@@ -1,3 +1,4 @@
+//this needs to be in a separate file
 //array of objects
 allStarSigns = [
   {'Aries':`Money or other resources could be made available to you today so you
