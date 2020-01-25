@@ -1,9 +1,9 @@
-// 1 -> display daily horoscope for each sign
+// TASK 1 -> display daily horoscope for each sign
 
-//target the paragraph with hidden message <p>
-// target the hiperlist/selector
-// connect users star sign with a value and
-// print out inside hiddent <p>
+//1. target the paragraph with hidden message <p>
+//2. target the hiperlist/selector
+//3. connect users star sign with a value and
+//4. print out inside hiddent <p>
 
 let hiddenMessage = document.getElementById("hidden-message");
 let selector = document.getElementById("star-selector");
@@ -14,12 +14,12 @@ selector.addEventListener("change", event => {
 
 // 2 --> display set of qualities about every sign
 
-//create object
-//target button
-// target <p> where i want to display answer
-//loop thru object
-//set timeout
-//display properties of that key
+//1. create object
+//2. target button
+//3. target <p> where i want to display answer
+//4. loop thru object
+//5. set timeout
+//6. display properties of that key
 
 let starQualities = {
   Aries: ["courageous ", "determined ", "moody"],
@@ -41,7 +41,7 @@ let qualitiesDisplay = document.getElementById("qualities-display");
 
 qualitiesBtn.addEventListener("click", showStarsQualities);
 
-// WHERE DO I PUT IT ?? setTimeout(showStarsQualities, 2000);
+// WHERE DO I PUT setTimeout(showStarsQualities, 2000);
 
 function showStarsQualities() {
   var keys = Object.keys(starQualities);
