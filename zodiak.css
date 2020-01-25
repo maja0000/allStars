@@ -1,45 +1,53 @@
-
 body {
-  color: #CEC9B8;
+  color: #cec9b8;
   background-image: url("stars.jpg");
   background-color: black;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
-h1{
+h1 {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 45px;
   font-size: 80px;
   border-bottom-style: solid;
-  border-bottom-color: #CEC9B8;
+  border-bottom-color: #cec9b8;
   border-top-style: solid;
-  border-top-color: #CEC9B8;
+  border-top-color: #cec9b8;
+  text-shadow: 2px 2px black;
 }
 
-.container{
-  display: flex;
-  justify-content: space-between;
-  margin: 30px;
-
-  background:rgba(206, 201, 184,0.2);
-  padding : 20px;
-
+.container {
+  background: rgba(206, 201, 184, 0.1);
+  width: 100%;
+  padding: 30px;
+  text-shadow: 3px -2px 3px black;
+}
+#hidden-message {
+  margin-right: 300px;
+}
+.container2 {
+  background: rgba(206, 201, 184, 0.1);
+  width: 400px;
+  padding: 30px;
+  margin-top: 60px;
+  margin-left: 200px;
+  text-shadow: 3px -2px 3px black;
+  width: 100%;
+  border-radius: 20px;
+}
+.container3 {
+  background: rgba(206, 201, 184, 0.1);
+  width: 400px;
+  padding: 30px;
+  margin-top: 60px;
+  text-shadow: 3px -2px 3px black;
+  width: 100%;
 }
 
-
-#allSigns{
-display: none;
-}
-
-
-#enterSign{
-}
-#choroscope{
-}
-#compatibility{
-
+.heading {
+  font-size: 30px;
 }
